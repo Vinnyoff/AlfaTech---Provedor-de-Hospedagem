@@ -1,11 +1,158 @@
-img {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.destaque {
+    color: #2f86d6;
+}
+
+/* INICIO ESTILIZANDO TOPO */
+.topo {
+    width: 100%;
+    background-color: #2f86d6;
+}
+
+.container-topo {
+    max-width: 1024px;
+    padding: 35px 0;
+    margin: 0 auto;
+    position: relative;
+}
+
+.topo-logo img {
     width: 80px;
 }
 
+.topo-logo div {
+    position: absolute;
+    top: 35px;
+    left: 95px;
+}
+
+.topo-logo p {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.topo-logo h1 {
+    font-size: 32px;
+    color: #000000;
+}
+
+.topo-links {
+    position: absolute;
+    top: 65px;
+    right: 0;
+
+    & a {
+        font-size: 18px;
+        margin-left: 15px;
+        color: #ffffff;
+    }
+}
+/* FIM ESTILIZAÇÃO TOPO */
+
+/* INICIO ESTILIZAÇÃO TABELA */
+.tabela-precos {
+    width: 100%;
+    background-color: #fff;
+}
+
+.tabela {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.vazio {
+    background-color: #fff;
+    visibility: hidden;
+}
+
+thead th {
+    background-color: #f1f3f7;
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+
+    & p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #a8a4a4;
+    }
+
+    & h3 {
+        font-size: 36px;
+    }
+}
+
+.coluna1 {
+    background-color: #f1f3f7;
+    text-align: left;
+}
+
+table tbody td {
+    padding: 20px 40px;
+    border-bottom: 1px solid #f1f3f7;
+    border-right: 1px solid #f1f3f7;
+}
+
 .on {
-    width: 11px;
-    height: 11px;
+    width: 20px;
+    height: 20px;
     background-color: #2f86d6;
     border-radius: 50%;
     border: none;
+    margin: auto;
 }
+/* FIM ESTILIZAÇÃO TABELA */
+
+/* INICIO RODAPÉ */
+.rodape {
+    background-color: #2f86d6;
+    padding: 70px 0 0 0;
+}
+
+.logo-rodape {
+    position: relative;
+    width: 320px;
+    margin: auto;
+
+    & img {
+        width: 80px;
+    }
+}
+
+.texto-rodape {
+    position: absolute;
+    top: 0;
+    left: 95px;
+
+    & p {
+        font-weight: 500;
+        color: #fff;
+    }
+}
+
+.rodape-p {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 0 70px;
+}
+
+.fim-site {
+    background-color: #f1f3f7;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* FIM RODAPÉ */
